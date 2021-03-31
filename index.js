@@ -60,7 +60,7 @@ i18n.configure({
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}help & ${PREFIX}play`,{type: "WATCHING" });
+  client.user.setActivity(`${PREFIX}help & ${PREFIX}play`,{type: "PLAYING" });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
